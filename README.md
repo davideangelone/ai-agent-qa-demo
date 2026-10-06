@@ -1,12 +1,12 @@
 
-# 🧠 Agente AI demo per Document RAG QA (LangChain + Streamlit + Ollama)
+# Agente AI demo per Document RAG QA (LangChain + Streamlit + Ollama)
 
 Proof of Concept di un agente AI accessibile da web app, per caricare documenti PDF/TXT e consentire interrogazioni in linguaggio naturale sul loro contenuto.
 Si basa su una pipeline RAG (Retrieval-Augmented Generation) implementata con [LangChain](https://github.com/langchain-ai/langchain), [Ollama](https://ollama.com/), e [Streamlit](https://streamlit.io/).
 Utilizza modelli locali di LLM ed embeddings.
 
 
-## 🚀 Funzionalità principali
+## Funzionalità principali
 
 - Caricamento documenti (PDF, TXT)
 - Indicizzazione automatica via embeddings e vector store (`Chroma`)
@@ -19,7 +19,7 @@ Utilizza modelli locali di LLM ed embeddings.
 
 ---
 
-## 🧰 Requisiti
+## Requisiti
 
 - Python 3.10+
 - [Ollama](https://ollama.com/) installato localmente
@@ -28,7 +28,7 @@ Utilizza modelli locali di LLM ed embeddings.
 
 ---
 
-## ⚙️ Setup ambiente
+## Setup ambiente
 
 **Crea ambiente virtuale**:
 
@@ -91,7 +91,7 @@ Accedi poi su `http://localhost:8501` per usare l'applicazione.
 
 ---
 
-## 📂 Struttura del progetto
+## Struttura del progetto
 
 ```text
 .
@@ -106,7 +106,7 @@ I vectorstore di embeddings verranno salvati nel folder `vectorstore` per un suc
 
 ---
 
-## ✍️ Esempi d'uso
+## Esempi d'uso
 
 1. Carica uno o più files TXT o PDF
 2. Clicca su **"Controlla e indicizza documenti"**
@@ -117,7 +117,7 @@ Il modello restituirà una risposta basata sui contenuti del documento.
 
 ---
 
-## 📚 Note tecniche
+## Note tecniche
 
 Il vector store usa Chroma in modalità persistente.
 

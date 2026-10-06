@@ -81,7 +81,7 @@ necessario abilitare la modalità sviluppatore
 
 ---
 
-## ▶️ Avvio dell'app
+## Avvio dell'app
 
 ```bash
 streamlit run main.py
